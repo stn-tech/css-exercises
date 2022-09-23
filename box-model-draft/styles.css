@@ -1,0 +1,27 @@
+* {
+   padding: 20px; 
+   border: 20px;
+   
+}
+.box1 {
+    background-color: red;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 28px;
+    border: 10px solid cornflowerblue
+   
+
+
+}
+
+.box2 {
+    background-color: blue;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 28px;
+    height: 100px;
+    width: 100px;
+    border: 40px solid yellow
+}

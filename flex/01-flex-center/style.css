@@ -3,6 +3,9 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+
+ 
+
 }
 
 .box {
@@ -12,4 +15,19 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+ margin: auto; /*horizontaal centreren van een item*/
 }
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; /*ruimte om items gelijk trekken */
+  /*conclusie: de opdracht item horizontaal centreren en 
+  opdracht ruimte om item overal gelijk= gecentreerd item */
+}
+
+/* Of
+
+.container {
+  display: flex; /*dit moet altijd, doe het bij het item dat je wilt verschuiven*/
+  /* align-items: center; zet alles in het midden op de y as (boven naar beneden)*/
+  /* justify-content: center; zet alles op midden x as (links naar rechts) */
