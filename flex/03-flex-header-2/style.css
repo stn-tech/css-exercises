@@ -12,6 +12,13 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;/*je wil tussen de rand van de pagina en 
+  de header een ruimte van 8px */
+
+
+
 }
 
 .profile-image {
@@ -35,14 +42,41 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
+  
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  
 }
+
+.linker {
+  display: flex;
+  justify-content: center;
+}
+
+
+.rechter {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+/*wat had je hier fout: 
+-je had gap en padding niet goed toegepast
+-je had bij linker en rechter div justify content 
+flex start en flex end. Dat was niet nodig. Binnen hun bakje 
+hoefden ze alleen gecentreerd te worden. Space between zorgt voor de rest 
+(er zijn maar 2 items).
+
+wat ontbrak? 
+Margin op 0px en padding op 0px
